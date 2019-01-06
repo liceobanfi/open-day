@@ -1,4 +1,11 @@
 <?php
+/*
+ * CONFIGURAZIONE DEI GIORNI DISPONIBILI
+ * [todo]: move this to a better storage format,
+ * one that can be easily edited or converted from a spreadsheet
+ * es: json, csv or a sql table
+ *
+ */
 
 return [
   'scienzeApplicate' => [
