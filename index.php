@@ -1,75 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(document).ready( function()
-{
-$("#rd1").click(
-function()
-{
-    $("#DIV_LSA").show();
-    $("#DIV_LS").hide();
-    $("#DIV_CL").hide();
-    $("#FORM_PRENOTA").hide();
-    $("input#corso").val("1");
-}
-);
-
-$("#rd2").click(
-function()
-{
-    $("#DIV_LSA").hide();
-    $("#DIV_LS").show();
-    $("#DIV_CL").hide();
-    $("#FORM_PRENOTA").hide();
-    $("input#corso").val("2");
-}
-);
-
-$("#rd3").click(
-function()
-{
-    $("#DIV_LSA").hide();
-    $("#DIV_LS").hide();
-    $("#DIV_CL").show();
-    $("#FORM_PRENOTA").hide();
-    $("input#corso").val("3");
-}
-);
-/*
-$("a#DATE_LSA_1").click(
-function()
-{
-    $gg = $(this).text();
-    alert($gg);
-}
-);
-*/
-
-$("a").click(
-function()
-{
-    $gg = $(this).text();
-    $("#FORM_PRENOTA").show();
-    $("input#data").val($gg);
-}        
-);
-
-
-$("input#data").click(
-function()
-{
-    $gg=$(this).val();
-    alert($(this).val());
-    $(this).val("Nuovo valore");
-}        
-);
-
-
-}); /* Ready */
-</script>
+  <meta charset="UTF-8">
+  <title>open day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async type="text/javascript" src="./js/main.js" ></script>
+  <link rel="stylesheet" href="css/style.css" >
 
 <?php
 function phpAlert($msg) 
@@ -144,7 +81,6 @@ function connessione()
 	$pwd = "";
 	$dbname = "banfidb";
 
- 
 	$con = mysqli_connect($ipaddress, $login, $pwd, $dbname);
 
 }
@@ -363,114 +299,6 @@ function iscrivi()
  
 ?>
 
-<style>
-.fl{
-	float:left;
-}
-.clear_both{
-	clear:both;
-}
-.div_errore{
-	padding-left:35%;
-	padding-top:20px;
-	padding-bottom:20px;
-	color:red;
-	border:solid 2px red;
-}
-.div_successo{
-	padding-left:5%;
-	padding-top:20px;
-	padding-bottom:20px;
-	color:blue;
-	border:solid 2px blue;
-}
-.link_selezionato{
-	
-	/*border-left:15px red solid;*/
-	color:black;
-	text-decoration:none;
-}
-
-html,body{height:100%;
-		  width:100%;
-		  margin:0;
-		  padding:0;}
-header
-{
-	height:20%;
-        width:100%;
-        background: yellow url("liceologo2.png")  100% 100%  no-repeat;
-	border-top:1px solid black;
-	border-right:1px solid black;
-	border-left:1px solid black;
-	border-bottom:1px solid black;          
-}
-footer
-{
-background-color:yellow;
-	  border-top:1px solid black;
-	  border-right:1px solid black;
-	  border-left:1px solid black;
-	  border-bottom:1px solid black;
-	  
-	  height:12%;
-	  position:fixed;
-	  bottom:0px;
-          width:100%;
-      font-weight: bold;
-
-}
-section
-{            
-    float: left;            
-    width: 30%;                  
-    overflow: auto;
-}        
-aside        
-{                 
-    float: right;            
-    width: 40%; 
-    overflow: visible;
-} 
-.div_testo1
-{	
-	margin:15px 20px 20px 0;
-}	
-.fl1
-{
-	float:left;
-    margin-left:40px;
-    margin-top:48px;
-}     
-.fr
-{
-	float:right;
-    background-color:white;
-    margin-right:40px;
-    margin-top:40px;
-} 
-.label_title
-{
-	font-size:25px;
-	font-weight: bold;	
-} 
-
-
-
-a{color:red;}
-.fine{background-color:yellow;
-	  border-top:1px solid black;
-	  border-right:1px solid black;
-	  border-left:1px solid black;
-	  border-bottom:1px solid black;
-	  height:40px;
-	  bottom:30px;
-	  position:fixed;
-	  bottom:0px;
-	  width:1500px;
-	  }
-.clear_both{clear:both;}
-</style>
 </head>
 
 <body>
@@ -569,3 +397,4 @@ Fax 039/6080805<br>
 
 </body>
 </html>
+
