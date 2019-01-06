@@ -6,7 +6,7 @@ A repository for the banfi open day registration website
 --
 
 ## documentation and style guide
-The code must be documented based on the [PHPdoc](http://manual.phpdoc.org/HTMLframesConverter/default/) standard
+The code documentation is based on the [PHPdoc](http://manual.phpdoc.org/HTMLframesConverter/default/) standard
 
 
 For the complete style guide, please read the [style guide](style-guide.md) page
@@ -17,7 +17,7 @@ Please note:
 - Class names MUST start with a capital letter and MUST be camelcase
 - Class files must have the same name of the class
 - variable names must be camelCase
-- variable that contains unfiltered input (received for example from get or post parameters, or curl requests)
+- variables that contain unfiltered input (received for example from get or post parameters, or curl requests)
   must be prefixed with U\_
 ### example
 
@@ -26,7 +26,7 @@ Please note:
 <pre lang=php>
 &lt;?php
 
-  $username = $\_GET['username'];
+  $username = $_GET['username'];
 
 </pre>
 
@@ -37,13 +37,13 @@ Please note:
 <pre lang=php>
 &lt;?php
 
-  $U\_username = $\_GET['username'];
+  $U_username = $_GET['username'];
 
 </pre>
 
 ## libraries used
 
-this is a list of the libraries used in this project, along with some useful articles and documentation
+this is a list of the libraries used in this project, along with some useful articles and documentations
 
 ### php mailer
 
