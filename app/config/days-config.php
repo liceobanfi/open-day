@@ -1,12 +1,12 @@
 <?php
-/*
- * CONFIGURAZIONE DEI GIORNI DISPONIBILI
- * [todo]: move this to a better storage format,
+
+/**
+ * AVIABLE DAYS CONFIGURATION
+ * @todo: move this to a better storage format,
  * one that can be easily edited or converted from a spreadsheet
  * es: json, csv or a sql table
  *
  */
-
 return [
   'scienzeApplicate' => [
     ['08 dicembre 2018', 20],
