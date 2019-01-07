@@ -9,6 +9,7 @@
  *  $instance = ConnectDb::getInstance();
  *  // get the gonnection
  *  $conn = $instance->getConnection();
+ * </code>
  */
 class ConnectDb {
   // Hold the class instance.
