@@ -53,4 +53,10 @@ repository: [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
 [documentation](http://php.net/manual/en/book.pdo.php)
 
-an useful article [phpdelusions.net/pdo](https://phpdelusions.net/pdo)
+a very useful guide [phpdelusions.net/pdo](https://phpdelusions.net/pdo)
+
+## useful resources
+
+[PDO](https://phpdelusions.net/pdo)
+[error handling](http://nyphp.org/PHundamentals/7_PHP-Error-Handling)
+
