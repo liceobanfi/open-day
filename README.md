@@ -57,6 +57,6 @@ a very useful guide [phpdelusions.net/pdo](https://phpdelusions.net/pdo)
 
 ## useful resources
 
-[PDO](https://phpdelusions.net/pdo)
-[error handling](http://nyphp.org/PHundamentals/7_PHP-Error-Handling)
+- [PDO](https://phpdelusions.net/pdo)
+- [error handling](http://nyphp.org/PHundamentals/7_PHP-Error-Handling)
 
